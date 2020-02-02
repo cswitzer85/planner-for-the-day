@@ -230,3 +230,119 @@ function save17() {
     localStorage.setItem("17", textBox17);
     document.getElementById("17").placeholder = localStorage.getItem(17);
 }
+
+
+
+//---------------_______________---------------Special Functions---------------_______________---------------
+function clearSchedule() {
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox9 = "Clear";
+    localStorage.setItem("9", textBox9);
+    document.getElementById("9").placeholder = localStorage.getItem(9);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox10 = "Clear";
+    localStorage.setItem("10", textBox10);
+    document.getElementById("10").placeholder = localStorage.getItem(10);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox11 = "Clear";
+    localStorage.setItem("11", textBox11);
+    document.getElementById("11").placeholder = localStorage.getItem(11);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox12 = "Clear";
+    localStorage.setItem("12", textBox12);
+    document.getElementById("12").placeholder = localStorage.getItem(12);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox13 = "Clear";
+    localStorage.setItem("13", textBox13);
+    document.getElementById("13").placeholder = localStorage.getItem(13);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox14 = "Clear";
+    localStorage.setItem("14", textBox14);
+    document.getElementById("14").placeholder = localStorage.getItem(14);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox15 = "Clear";
+    localStorage.setItem("15", textBox15);
+    document.getElementById("15").placeholder = localStorage.getItem(15);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox16 = "Clear";
+    localStorage.setItem("16", textBox16);
+    document.getElementById("16").placeholder = localStorage.getItem(16);
+
+    localStorage.clear();
+    console.log("clear button clicked")
+    textBox17 = "Clear";
+    localStorage.setItem("17", textBox17);
+    document.getElementById("17").placeholder = localStorage.getItem(17);
+}
+
+function blockSchedule() {
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox9 = "Block";
+    localStorage.setItem("9", textBox9);
+    document.getElementById("9").placeholder = localStorage.getItem(9);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox10 = "Block";
+    localStorage.setItem("10", textBox10);
+    document.getElementById("10").placeholder = localStorage.getItem(10);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox11 = "Block";
+    localStorage.setItem("11", textBox11);
+    document.getElementById("11").placeholder = localStorage.getItem(11);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox12 = "Block";
+    localStorage.setItem("12", textBox12);
+    document.getElementById("12").placeholder = localStorage.getItem(12);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox13 = "Block";
+    localStorage.setItem("13", textBox13);
+    document.getElementById("13").placeholder = localStorage.getItem(13);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox14 = "Block";
+    localStorage.setItem("14", textBox14);
+    document.getElementById("14").placeholder = localStorage.getItem(14);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox15 = "Block";
+    localStorage.setItem("15", textBox15);
+    document.getElementById("15").placeholder = localStorage.getItem(15);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox16 = "Block";
+    localStorage.setItem("16", textBox16);
+    document.getElementById("16").placeholder = localStorage.getItem(16);
+
+    localStorage.clear();
+    console.log("block button clicked")
+    textBox17 = "Block";
+    localStorage.setItem("17", textBox17);
+    document.getElementById("17").placeholder = localStorage.getItem(17);
+
+}

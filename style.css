@@ -88,3 +88,8 @@ textarea {
   ;
   margin-top: 16%;
 }
+
+.headerButton {
+  background: transparent;
+  border: none;
+}

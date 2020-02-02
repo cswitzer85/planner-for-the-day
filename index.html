@@ -15,8 +15,10 @@
 
 <body>
   <header class="jumbotron">
-    <h1 class="display-3"><i class="far fa-calendar" style="color: #06AED5; font-size: 3rem;"></i> Work Day Scheduler <i
-        class="far fa-calendar-alt" style="color: #06AED5; font-size: 3rem;"></i></h1>
+    <h1 class="display-3"><button class="headerButton"><i class="far fa-calendar" onclick="clearSchedule()"
+          style="color: #06AED5; font-size: 3rem;"></i></button> Work Day Scheduler <button class="headerButton"><i
+          class="far fa-calendar-alt" onclick="blockSchedule()" style="color: #06AED5; font-size: 3rem;"></i></button>
+    </h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
   </header>
