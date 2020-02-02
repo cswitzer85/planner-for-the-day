@@ -1,3 +1,14 @@
+//---------------_______________---------------Set Placeholder On Initial Page Render---------------_______________---------------
+document.getElementById("9").placeholder = localStorage.getItem(9)
+document.getElementById("10").placeholder = localStorage.getItem(10)
+document.getElementById("11").placeholder = localStorage.getItem(11)
+document.getElementById("12").placeholder = localStorage.getItem(12)
+document.getElementById("13").placeholder = localStorage.getItem(13)
+document.getElementById("14").placeholder = localStorage.getItem(14)
+document.getElementById("15").placeholder = localStorage.getItem(15)
+document.getElementById("16").placeholder = localStorage.getItem(16)
+document.getElementById("17").placeholder = localStorage.getItem(17)
+
 //---------------_______________---------------Variables---------------_______________---------------
 var currentTimeAndDate = new Date();
 var year = currentTimeAndDate.getFullYear();
@@ -7,23 +18,24 @@ var hour = currentTimeAndDate.getHours();
 var weekdays = moment.weekdays();
 var dayOfWeek = weekdays[currentTimeAndDate.getDay()];
 //---------------_______________---------------Input Per Time Slot---------------_______________---------------
-var array9 = ""
-//document.getElementById("9").value;
-var array10 = ""
+var textBox9 = ""
+// document.getElementById("9").value;
+// localStorage.getItem(9)
+var textBox10 = ""
 // document.getElementById("10").value;
-var array11 = ""
+var textBox11 = ""
 // document.getElementById("11").value;
-var array12 = ""
+var textBox12 = ""
 // document.getElementById("12").value;
-var array13 = ""
+var textBox13 = ""
 // document.getElementById("13").value;
-var array14 = ""
+var textBox14 = ""
 // document.getElementById("14").value;
-var array15 = ""
+var textBox15 = ""
 // document.getElementById("15").value;
-var array16 = ""
+var textBox16 = ""
 // document.getElementById("16").value;
-var array17 = ""
+var textBox17 = ""
 // document.getElementById("17").value;
 
 //---------------_______________---------------Set Time & Date---------------_______________---------------
@@ -34,112 +46,156 @@ document.getElementById("currentDay").innerHTML = dayOfWeek + " " + (monthArray[
 document.getElementById("time9").innerHTML = moment().startOf("day").add(9, "hour").format("hh:mm A");
 
 if (hour > 9) {
-    $("#9").css("background-color", "lightgray");
+    $("#eventInput9").css("background-color", "lightgray");
 }
 if (hour == 9) {
-    $("#9").css("background-color", "red");
+    $("#eventInput9").css("background-color", "red");
 }
 if (hour < 9) {
-    $("#9").css("background-color", "lime");
+    $("#eventInput9").css("background-color", "lime");
 }
 //---------------_______________---------------<10 AM>---------------_______________---------------
 document.getElementById("time10").innerHTML = moment().startOf("day").add(10, "hour").format("hh:mm A");
 if (hour > 10) {
-    $("#10").css("background-color", "lightgray");
+    $("#eventInput10").css("background-color", "lightgray");
 }
 if (hour == 10) {
-    $("#10").css("background-color", "red");
+    $("#eventInput10").css("background-color", "red");
 }
 if (hour < 10) {
-    $("#10").css("background-color", "lime");
+    $("#eventInput10").css("background-color", "lime");
 }
 //---------------_______________---------------<11 AM>
 document.getElementById("time11").innerHTML = moment().startOf("day").add(11, "hour").format("hh:mm A");
 if (hour > 11) {
-    $("#11").css("background-color", "lightgray");
+    $("#eventInput11").css("background-color", "lightgray");
 }
 if (hour == 11) {
-    $("#11").css("background-color", "red");
+    $("#eventInput11").css("background-color", "red");
 }
 if (hour < 11) {
-    $("#11").css("background-color", "lime");
+    $("#eventInput11").css("background-color", "lime");
 }
 //---------------_______________---------------<12 PM>---------------_______________---------------
 document.getElementById("time12").innerHTML = moment().startOf("day").add(12, "hour").format("hh:mm A");
 if (hour > 12) {
-    $("#12").css("background-color", "lightgray");
+    $("#eventInput12").css("background-color", "lightgray");
 }
 if (hour == 12) {
-    $("#12").css("background-color", "red");
+    $("#eventInput12").css("background-color", "red");
 }
 if (hour < 12) {
-    $("#12").css("background-color", "lime");
+    $("#eventInput12").css("background-color", "lime");
 }
 //---------------_______________---------------<1 PM>
 document.getElementById("time13").innerHTML = moment().startOf("day").add(13, "hour").format("hh:mm A");
 if (hour > 13) {
-    $("#13").css("background-color", "lightgray");
+    $("#eventInput13").css("background-color", "lightgray");
 }
 if (hour == 13) {
-    $("#13").css("background-color", "red");
+    $("#eventInput13").css("background-color", "red");
 }
 if (hour < 13) {
-    $("#13").css("background-color", "lime");
+    $("#eventInput13").css("background-color", "lime");
 }
 //---------------_______________---------------<2 PM>---------------_______________---------------
 document.getElementById("time14").innerHTML = moment().startOf("day").add(14, "hour").format("hh:mm A");
 if (hour > 14) {
-    $("#14").css("background-color", "lightgray");
+    $("#eventInput14").css("background-color", "lightgray");
 }
 if (hour == 14) {
-    $("#14").css("background-color", "red");
+    $("#eventInput14").css("background-color", "red");
 }
 if (hour < 14) {
-    $("#14").css("background-color", "lime");
+    $("#eventInput14").css("background-color", "lime");
 }
 //---------------_______________---------------<3 PM>---------------_______________---------------
 document.getElementById("time15").innerHTML = moment().startOf("day").add(15, "hour").format("hh:mm A");
 if (hour > 15) {
-    $("#15").css("background-color", "lightgray");
+    $("#eventInput15").css("background-color", "lightgray");
 }
 if (hour == 15) {
-    $("#15").css("background-color", "red");
+    $("#eventInput15").css("background-color", "red");
 }
 if (hour < 15) {
-    $("#15").css("background-color", "lime");
+    $("#eventInput15").css("background-color", "lime");
 }
 //---------------_______________---------------<4 PM>---------------_______________---------------
 document.getElementById("time16").innerHTML = moment().startOf("day").add(16, "hour").format("hh:mm A");
 
 if (hour > "16") {
-    $("#16").css("background-color", "lightgray");
+    $("#eventInput16").css("background-color", "lightgray");
 }
 if (hour == "16") {
-    $("#16").css("background-color", "red");
+    $("#eventInput16").css("background-color", "red");
 }
 if (hour < "16") {
-    $("#16").css("background-color", "lime");
+    $("#eventInput16").css("background-color", "lime");
 }
 //---------------_______________---------------<5 PM>---------------_______________---------------
 document.getElementById("time17").innerHTML = moment().startOf("day").add(17, "hour").format("hh:mm A");
 if (hour > "17") {
-    $("#17").css("background-color", "lightgray");
+    $("#eventInput17").css("background-color", "lightgray");
 }
 if (hour == "17") {
-    $("#17").css("background-color", "red");
+    $("#eventInput17").css("background-color", "red");
 }
 if (hour < "17") {
-    $("#17").css("background-color", "lime");
+    $("#eventInput17").css("background-color", "lime");
+}
+//---------------_______________---------------Functions---------------_______________---------------
+document.addEventListener("#btn9")
+function Save9() {
+    localStorage.setItem("9", document.getElementById("9").value)
+}
+document.addEventListener("#btn10")
+function Save10() {
+    localStorage.setItem("10", document.getElementById("10").value)
+}
+document.addEventListener("#btn11")
+function Save11() {
+    localStorage.setItem("11", document.getElementById("11").value)
+}
+document.addEventListener("#btn12")
+function Save12() {
+    localStorage.setItem("12", document.getElementById("12").value)
+}
+document.addEventListener("#btn13")
+function Save13() {
+    localStorage.setItem("13", document.getElementById("13").value)
+}
+document.addEventListener("#btn14")
+function Save14() {
+    localStorage.setItem("14", document.getElementById("14").value)
+}
+document.addEventListener("#btn15")
+function Save15() {
+    localStorage.setItem("15", document.getElementById("15").value)
+}
+document.addEventListener("#btn16")
+function Save16() {
+    localStorage.setItem("16", document.getElementById("16").value)
+}
+document.addEventListener("#btn17")
+function Save17() {
+    localStorage.setItem("17", document.getElementById("17").value)
 }
 
 
+// function () {
+
+// }
+
+
+
+
+//---------------_______________---------------For Reference---------------_______________---------------
 // for (i = 0; i < playerNameStored.length; i++) {
 //     var scoreText = " - - - - - - - - - - " + playerNameStored[i] + " . . . . . " + playerScoreStored[i] + " - - - - - - - - - - ";
 //     var newLi = $("<li>")
 //     newLi.text(scoreText)
 //     newLi.appendTo(".scoreBoard")
 // }
-
 //---------------_______________---------------<Commented Out HTML For Reference>---------------_______________---------------
 // { <thread class="time-block">
 // <tr class="row">
