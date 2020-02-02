@@ -12,6 +12,14 @@ Once all changes for that time slot have been made, press the save button/icon o
 The page can be refreshed and any saved events will remain; however, unsaved events will be lost.
 Repeat as your day changes and come back tomorrow to do it all again!
 
+# SPECIAL BUTTONS
+Need to clear your schedule quickly, or maybe something came up and you need to block everything.
+There's a botton for both of those situations!
+To clear all cells click the blank calendar button to the left of "Work Day Scheduler" at the top of the page.
+To block all cells click the full calendar button to the right of "Work Day Scheduler" at the top of the page.
+
+
+# THE FOLLOWING CONTENT IS FROM THE ORIGINAL README FOR THE HW_____________________________________________________
 
 # What needs are satisified?
 AS AN employee with a busy schedule
