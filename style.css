@@ -43,7 +43,6 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
   padding-top: 30px;
-  width: 10%;
 }
 
 .eventInput {
@@ -93,3 +92,13 @@ textarea {
   background: transparent;
   border: none;
 }
+@media (min-width: 100px) and (max-width: 767px) {
+  .hour{
+padding-left: 5%;
+  }
+  .eventInput{
+    max-width: 60%;
+  }
+  .saveBtn{
+    width: 14%;
+  }
